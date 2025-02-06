@@ -8,7 +8,8 @@ import "./index.css";
 
 const App = () => {
   return (
-    <Router>
+    <div>
+      <Router>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -22,6 +23,11 @@ const App = () => {
         <Route path="/services" element={<Services />} />
       </Routes>
     </Router>
+    <h1>TOP GRACE HOSPITAL AND DENTAL CARE</h1>
+    <p>we brings joy and peace to the neighbour</p>
+    </div>
+    
+    
   );
 };
 
