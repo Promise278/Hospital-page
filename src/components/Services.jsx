@@ -1,13 +1,23 @@
-import React from 'react'
+import React from "react";
 
-const services = () => {
+const Services = () => {
   return (
-    <div>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sit odit quis, tempore eum aperiam nihil ut veritatis iste, ab dignissimos vitae minus praesentium obcaecati quod repudiandae fugiat eligendi modi.</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor at facilis harum aut itaque sapiente dicta, voluptas maiores voluptatum illo tempora pariatur eaque non alias hic, ex veritatis quis ea.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam iusto corporis illo illum nam facilis quis, mollitia temporibus eum explicabo harum, vel voluptatum iste, consequuntur suscipit amet ratione expedita.</p>
-    </div>
-  )
-}
+    <section>
+      <h1>Our Services</h1>
+      <p>
+        We offer a variety of healthcare services to meet the needs of our
+        patients, including:
+      </p>
+      <ul>
+        <li>Emergency Care</li>
+        <li>Outpatient Services</li>
+        <li>Inpatient Care</li>
+        <li>Surgical Services</li>
+        <li>Rehabilitation Services</li>
+      </ul>
+      <p>Our team is dedicated to providing the best care possible.</p>
+    </section>
+  );
+};
 
-export default services
+export default Services;
